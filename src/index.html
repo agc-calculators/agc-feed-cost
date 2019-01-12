@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Feed Cost Calculator</title>
+  <link rel="stylesheet" href="/build/agc-feed-cost.css" type="text/css" />
+  <script src="/build/agc-feed-cost.js"></script>
+</head>
+<body>
+
+  <agc-feed-cost socket="example" mode="full">
+      <div slot="results">
+      <agc-feed-cost-results socket="example">
+        <div slot="empty">
+          <agc-feed-cost-results-placeholder></agc-feed-cost-results-placeholder>
+        </div>
+      </agc-feed-cost-results>
+    </div>
+  </agc-feed-cost>
+  
+
+</body>
+</html>

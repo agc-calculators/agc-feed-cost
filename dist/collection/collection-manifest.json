@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "tag": "agc-feed-cost",
+      "dependencies": [],
+      "componentClass": "AgcFeedCost",
+      "componentPath": "components/agc-feed-cost/agc-feed-cost.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        },
+        {
+          "name": "units",
+          "type": "Any",
+          "attr": "units"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-feed-cost-inputs",
+      "dependencies": [],
+      "componentClass": "AgcFeedCostInputs",
+      "componentPath": "components/agc-feed-cost-inputs/agc-feed-cost-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-feed-cost-progress",
+      "dependencies": [],
+      "componentClass": "AgcFeedCostProgress",
+      "componentPath": "components/agc-feed-cost-progress/agc-feed-cost-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-feed-cost-results",
+      "dependencies": [],
+      "componentClass": "AgcFeedCostResults",
+      "componentPath": "components/agc-feed-cost-results/agc-feed-cost-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-feed-cost-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcFeedCostResultsPlaceholder",
+      "componentPath": "components/agc-feed-cost-results-placeholder/agc-feed-cost-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

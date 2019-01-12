@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:s}=window.AgcFeedCost;class e{render(){const e=()=>s("span",null,s("i",{class:"mark"})," ",s("i",{class:"mark"})," ",s("i",{class:"mark"})," ",s("i",{class:"mark"}));return s("section",null,s("ul",{class:"agc-results-placeholder"},s("li",null,s("h2",{"data-i18n":"results.feed-cost-per-day"},"Feed Cost per Day"),e()),s("li",null,s("h2",{"data-i18n":"results.feed-cost-per-pound"},"Feed Cost per Pound"),e())))}static get is(){return"agc-feed-cost-results-placeholder"}}export{e as AgcFeedCostResultsPlaceholder};
